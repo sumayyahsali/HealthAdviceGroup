@@ -33,6 +33,20 @@ namespace Health_Advice_Group.Controllers
             return View();
         }
 
+        public IActionResult Air() 
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Terms() 
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
