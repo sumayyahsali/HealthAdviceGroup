@@ -2,6 +2,7 @@ using Health_Advice_Group.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+/* creates different pages */
 namespace Health_Advice_Group.Controllers
 {
     public class HomeController : Controller
