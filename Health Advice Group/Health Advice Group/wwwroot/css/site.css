@@ -18,8 +18,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  /*Changes the background colour of the body of the website*/
-  background-color: palegreen ;
-  
+    margin-bottom: 60px;
+    /*Changes the background colour of the body of the website*/
+    background-color: #E9FCD4;
 }
