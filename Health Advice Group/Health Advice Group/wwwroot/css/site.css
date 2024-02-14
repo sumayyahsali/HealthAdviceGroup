@@ -8,14 +8,15 @@ html {
   }
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
 body {
     margin-bottom: 60px;
@@ -23,3 +24,13 @@ body {
     background-color: #E9FCD4;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+/*Changes the speed of transition on naigation bar when it changes colour*/
+.nav-item a, .navbar-brand {
+    transition: color 0.3s ease-in;
+}
+/*This will ensure the navigation buttons change colour when hovered over by the mouse*/
+    .nav-item a:hover, .navbar-brand hover {
+        color: palegreen !important;
+        text-decoration: underline;
+    }
