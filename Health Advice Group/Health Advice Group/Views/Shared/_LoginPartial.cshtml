@@ -2,6 +2,7 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+@*links the register and login pages to the navigation bar*@
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
